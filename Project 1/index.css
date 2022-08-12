@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    color:rgb(231, 5, 5);
+}
+MAIN_BODY{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+body{
+   background-image: url(image/1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+form{
+    background-color: rgba(161, 230, 230, 0.733);
+     padding: 50px;
+     border-radius: 10px;
+     
+    
+}
+input#name{
+    border-radius: 3px ;
+    border: 1px solid rgb(66, 65, 65);
+    box-shadow: 1px 1px;
+}
+input#submit{
+    background-color: rgb(140, 192, 199);
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 1px 1px;
+    cursor: pointer;
+}
+label,span{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+    
